@@ -38,7 +38,7 @@ func main() {
 
 	// Read a user by ID
 	var readUser model.User
-	err = readUser.Read(
+	err = readUser.ReadOne(
 		context.Background(),
 		db,
 		"users",
