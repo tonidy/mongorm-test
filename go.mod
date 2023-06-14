@@ -2,9 +2,10 @@ module github.com/tonidy/mongorm-test
 
 go 1.20
 
-require go.mongodb.org/mongo-driver v1.11.7
-
-require git.yud1z.my.id/lib/mongorm v0.0.0-20230614150722-ca9084765fbe
+require (
+	git.yud1z.my.id/lib/mongorm v0.0.0-20230614150722-ca9084765fbe
+	go.mongodb.org/mongo-driver v1.11.7
+)
 
 require (
 	github.com/golang/snappy v0.0.4 // indirect
