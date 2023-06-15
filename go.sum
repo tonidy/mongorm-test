@@ -1,5 +1,5 @@
-git.yud1z.my.id/lib/mongorm v0.0.0-20230614150722-ca9084765fbe h1:QD8vVgkrlt5ORFqhhlfhw7fnwXWFBZqu/BKqIgfSnsg=
-git.yud1z.my.id/lib/mongorm v0.0.0-20230614150722-ca9084765fbe/go.mod h1:8gLhS9BzaUMb+eY3k2VIb4WmDDpoK+Z0mQKkgrgTzUA=
+git.yud1z.my.id/lib/mongorm v0.2.0 h1:lSQNXDc7SBWf8kF0dRfPT4hs+cf1dAZj7dy5qFfgII8=
+git.yud1z.my.id/lib/mongorm v0.2.0/go.mod h1:8gLhS9BzaUMb+eY3k2VIb4WmDDpoK+Z0mQKkgrgTzUA=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

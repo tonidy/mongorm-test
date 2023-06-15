@@ -3,7 +3,7 @@ module github.com/tonidy/mongorm-test
 go 1.20
 
 require (
-	git.yud1z.my.id/lib/mongorm v0.0.0-20230614150722-ca9084765fbe
+	git.yud1z.my.id/lib/mongorm v0.2.0
 	go.mongodb.org/mongo-driver v1.11.7
 )
 
