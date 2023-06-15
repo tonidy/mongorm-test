@@ -34,7 +34,36 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("User created: %v\n", user)
+	fmt.Printf("User 1 created: %v\n", user)
+
+	// Create a new user
+	user2 := model.User{
+		FirstName: "Si",
+		LastName:  "Unyil",
+		Email:     "unyi;@example.com",
+	}
+	err = user.Create(
+		context.Background(),
+		db,
+		"users",
+		&user2,
+	)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Printf("User created 2: %v\n", user2)
+
+	filter := bson.D{{}}
+	users, err := user.Read(
+		context.Background(),
+		db,
+		"users",
+		filter,
+	)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Printf("User list: %+v\n", users)
 
 	// Read a user by ID
 	var readUser model.User
@@ -48,7 +77,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("User read: %v\n", readUser)
+	fmt.Printf("Get 1 user: %v\n", readUser)
 
 	// Update a user's email
 	update := bson.M{
